@@ -1,0 +1,4 @@
+numpy>=1.17
+opencv-python>=4.5
+future>=0.17
+glob2>=0.7
