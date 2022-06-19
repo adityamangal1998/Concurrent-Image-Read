@@ -4,7 +4,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 setup(
     name='ConcurrentImageRead',
-    version='0.0.4',
+    version='0.0.5',
     description='Read Image Directory or Image List simultaneously with multi-processing',
     long_description=long_description,
     long_description_content_type='text/markdown',
