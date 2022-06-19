@@ -1,9 +1,13 @@
 from setuptools import setup
-
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 setup(
     name='ConcurrentImageRead',
     version='0.0.1',
     description='Read Image Directory or Image List simultaneously with multi-processing',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/adityamangal1998/Concurrent-Image-Read.git',
     author='Aditya Mangal',
     author_email='adityamangal98@gmail.com',
