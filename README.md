@@ -12,7 +12,7 @@
 </ul>
 
 <h1>User installation</h1>
-<pre><code>pip install Concurrent-Image-Read
+<pre><code>pip install ConcurrentImageRead
 </code></pre>
 
 
