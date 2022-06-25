@@ -35,10 +35,10 @@ You can check the latest sources with the command:
 
 <ul><b>read_dir function</b>
 <li>dir_path = String, Path of Image Directory</li>
-<li>file_type = 'all' or 'PNG','JPG',...etc or ['JPG','PNG',...] <b>(case sensitive)</b> (default png)</li>
-<li>num_threads = Number of threads (default 3)</li>
-<li>channel_type = BGR or RBG (default BGR)</li>
-<li>sub_dir = Bool, Find all Images in all child directory also (default False)</li>
+<li>file_type = 'all' or 'PNG','JPG',...etc or ['JPG','PNG',...] <b>(case sensitive)</b> (default png) <b>(optional)</b></li>
+<li>num_threads = Number of threads (default 3) <b>(optional)</b></li>
+<li>channel_type = BGR or RBG (default BGR) <b>(optional)</b></li>
+<li>sub_dir = Bool, Find all Images in all child directory also (default False) <b>(optional)</b></li>
 <li>grayscale = True or False <b>(optional)</b></li>
 <li>normalisation = True or False, Image array divide by 255 <b>(optional)</b></li>
 </ul>
