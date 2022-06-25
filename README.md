@@ -1,4 +1,12 @@
 # Concurrent-Image-Read
+[![PyPI Status](https://img.shields.io/badge/pypi%20package-0.0.8-orange)](https://pypi.org/project/ConcurrentImageRead/)
+[![PyPI Status](https://img.shields.io/github/stars/adityamangal1998/Concurrent-Image-Read)](https://img.shields.io/github/stars/adityamangal1998/Concurrent-Image-Read)
+[![PyPI Status](https://img.shields.io/github/license/adityamangal1998/Concurrent-Image-Read)](https://img.shields.io/github/license/adityamangal1998/Concurrent-Image-Read)
+<br><br>
+<b>Author : Aditya Mangal </b>[![PyPI Status](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-mangal/)
+
+
+<br>
  <b>Concurrent-Image-Read</b> is a python module to read Image Files or Image List Concurrently with multi-threading
 <h1>Installation</h1>
 
