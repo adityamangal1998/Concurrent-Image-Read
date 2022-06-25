@@ -23,15 +23,24 @@ You can check the latest sources with the command:
 
 <h1>Usage</h1>
 <h2>Default Parameters</h2>
-<ul>read function
-<li>num_threads = Number of threads (default 3)</li>
-<li>channel_type = BGR or RBG (default BGR)</li>
+<ul><b>read function</b>
+<li>image_list = List or Numpy array or Single Path of image</li>
+<li>num_threads = Number of threads (default 3) <b>(optional)</b></li>
+<li>channel_type = BGR or RBG (default BGR) <b>(optional)</b></li>
+<li>root_path = String, Parent path for all files <b>(optional)</b></li>
+<li>grayscale = True or False <b>(optional)</b></li>
+<li>resize = List or Tuple resize scale in (width,height) <b>(optional)</b></li>
+<li>normalisation = True or False, Image array divide by 255 <b>(optional)</b></li>
 </ul>
-<ul>read_dir function
-<li>file_type = Extension of image file (default png)</li>
+
+<ul><b>read_dir function</b>
+<li>dir_path = String, Path of Image Directory</li>
+<li>file_type = 'all' or 'PNG','JPG',...etc or ['JPG','PNG',...] <b>(case sensitive)</b> (default png)</li>
 <li>num_threads = Number of threads (default 3)</li>
 <li>channel_type = BGR or RBG (default BGR)</li>
-<li>sub_dir = Search in sub folders also (default False)</li>
+<li>sub_dir = Bool, Find all Images in all child directory also (default False)</li>
+<li>grayscale = True or False <b>(optional)</b></li>
+<li>normalisation = True or False, Image array divide by 255 <b>(optional)</b></li>
 </ul>
 
 <h2>With Image List</h2>
@@ -52,3 +61,4 @@ images = CIR.read(image_list,num_threads=3, channel_type='BGR')
 dir_path = 'data/images'
 images = CIR.read_dir(dir_path,file_type='png', num_threads=3, channel_type='BGR', sub_dir=False)
 </code></pre>
+
