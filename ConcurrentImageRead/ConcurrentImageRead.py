@@ -44,7 +44,7 @@ def read_camera(source, num_threads=3, fps=None, end_time_sec=None, channel_type
                 normalisation=None):
     """
     Read Image from Camera with multi-threading
-    :param source: Integer for Webcam or String for Path of Camera 
+    :param source: Integer for Webcam or String for Path of Camera or List of Cameras
     :param num_threads: Integer, Number of Threads
     :param fps: Integer in seconds, Frame per seconds
     :param end_time_sec: Integer in seconds, end time of camera
@@ -66,7 +66,7 @@ def read_video_file(source, num_threads=3, fps=None, end_time_sec=None, channel_
                     normalisation=None):
     """
     Read Image from Video files with multi-threading
-    :param source: Integer for Webcam or String for Path of Camera
+    :param source: List or Numpy array or Single Path of Video
     :param num_threads: Integer, Number of Threads
     :param fps: Integer in seconds, Frame per seconds
     :param end_time_sec: Integer in seconds, end time of camera
